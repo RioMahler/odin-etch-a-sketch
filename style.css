@@ -6,17 +6,20 @@
   margin: 0;
 }
 
-#container div {
+#container > div {
   width: 10vw;
   height: 10vw;
   margin: 0;
 }
 
-#container div div {
-  background-color: blue;
+.square {
   width: 5vw;
   height: 5vw;
   margin: 10px 5px;
   position: relative;
   z-index: 1;
+}
+
+.black {
+  background-color: black;
 }
