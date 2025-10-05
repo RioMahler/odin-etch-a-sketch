@@ -1,0 +1,22 @@
+#container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#container div {
+  width: 10vw;
+  height: 10vw;
+  margin: 0;
+}
+
+#container div div {
+  background-color: blue;
+  width: 5vw;
+  height: 5vw;
+  margin: 10px 5px;
+  position: relative;
+  z-index: 1;
+}
