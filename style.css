@@ -1,23 +1,39 @@
+button {
+  display: block;
+  margin: 5vh auto;
+  font-size: 3rem;
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  color: white;
+  background-color: black;
+}
+
 #container {
   display: flex;
-  align-items: center;
+
+  border-radius: 10px;
+  align-items: stretch;
   justify-content: center;
-  height: 100vh;
-  margin: 0;
+  height: 960px;
+  width: 960px;
+  border: grey solid 5px;
+  background-color: rgba(211, 211, 211, 0.274);
+  margin: auto;
 }
 
 #container > div {
-  width: 10vw;
-  height: 10vw;
   margin: 0;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-between;
 }
 
 .square {
-  width: 5vw;
-  height: 5vw;
-  margin: 10px 5px;
-  position: relative;
-  z-index: 1;
+  flex-grow: 1;
+  flex-shrink: 0;
 }
 
 .black {
